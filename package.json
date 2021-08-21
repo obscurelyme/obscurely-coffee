@@ -21,6 +21,7 @@
     "nanobar": "^0.4.2",
     "nod-validate": "^2.0.12",
     "object-fit-images": "^3.2.4",
+    "prettier": "^2.3.2",
     "regenerator-runtime": "^0.13.7",
     "slick-carousel": "^1.8.1",
     "svg-injector": "^1.1.3",

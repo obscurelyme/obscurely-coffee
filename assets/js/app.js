@@ -61,7 +61,11 @@ const customClasses = {};
  * @param contextJSON
  * @returns {*}
  */
-window.stencilBootstrap = function stencilBootstrap(pageType, contextJSON = null, loadGlobal = true) {
+window.stencilBootstrap = function stencilBootstrap(
+    pageType,
+    contextJSON = null,
+    loadGlobal = true,
+) {
     const context = JSON.parse(contextJSON || '{}');
 
     return {
@@ -87,8 +91,8 @@ window.stencilBootstrap = function stencilBootstrap(pageType, contextJSON = null
                 }
 
                 // Wait for imports to resolve, then call load() on them
-                Promise.all(importPromises).then(imports => {
-                    imports.forEach(imported => {
+                Promise.all(importPromises).then((imports) => {
+                    imports.forEach((imported) => {
                         imported.default.load(context);
                     });
                 });
