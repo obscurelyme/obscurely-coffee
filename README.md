@@ -5,7 +5,12 @@ A _"hello, world"_ web site for Big Commerce
 ### Preview
 
 [obscurelycoffee.com](https://obscurelycoffee.mybigcommerce.com/?ctk=1ace371d-04f8-4483-af12-53ab1998fd49)
-Preview Code: 2cq02mjtp0
+
+##### Preview Code
+
+```
+2cq02mjtp0
+```
 
 ### TODOs
 
